@@ -1,7 +1,5 @@
-# Day1
+# Summer Training Assignments
 
 ## Development Environment
 - Language: C++
 - Editor: Visual Studio Code (VS Code)
-
-> Screenshots in this repository show the code and execution in VS Code.
