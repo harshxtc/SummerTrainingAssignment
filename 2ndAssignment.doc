@@ -1,0 +1,170 @@
+
+Question 1: What is a conditional statement in programming?
+A conditional statement is a feature in programming that allows the code to make decisions and execute different blocks of code based on whether a condition is true or false.
+
+Question 2: What does an if statement do?
+An if statement checks a condition. If that condition is true, it executes the block of code inside it. If the condition is false, it skips that code.
+
+Question 3: What is the purpose of an else block?
+The purpose of an else block is to provide an alternative path. It runs a backup block of code when the main if condition turns out to be false.
+
+Question 4: When is an else block executed?
+An else block is executed only when all the preceding if (and else if) conditions evaluate to false.
+
+Question 5: What is a Boolean expression?
+A Boolean expression is any statement or condition that evaluates to either exactly true or false.
+
+Question 6: Write the syntax of a simple if statement.
+C++
+if (condition) {
+    // code to execute if condition is true
+}
+Question 7: What operator is commonly used to test equality?
+The double equal sign (==) operator is used to check equality.
+
+Question 8: What does the modulus (%) operator return?
+The modulus operator returns the remainder left over after dividing one number by another.
+
+Question 9: How can you check if a number is even?
+A number is even if it leaves a remainder of 0 when divided by 2.
+Condition: num % 2 == 0
+
+Question 10: How can you check if a number is odd?
+A number is odd if it leaves a remainder of 1 (or not 0) when divided by 2.
+Condition: num % 2 != 0
+
+Question 12: What is a nested if statement?
+A nested if statement is an if statement placed entirely inside another if or else block.
+
+Question 13: Can an if statement exist without an else?
+Yes, an if statement can easily exist on its own without requiring an else block.
+
+Question 14: What is the output when a false condition is tested in an if statement without else?
+No output comes from that conditional block; the program simply skips the code inside the if and moves to the next regular lines of code.
+
+Question 15: What is the role of braces {} in C/C++ conditionals?
+Braces {} are used to group multiple statements together into a single block so that the compiler knows exactly which lines belong to that condition.
+
+Question 16: What does > mean?
+Greater than operator.
+
+Question 17: What does < mean?
+Less than operator.
+
+Question 18: What does >= mean?
+Greater than or equal to operator.
+
+Question 19: What does <= mean?
+Less than or equal to operator.
+
+Question 20: What does != mean?
+Not equal to operator.
+
+Question 21: What is a switch statement?
+A switch statement is a control structure used to select and execute one choice from multiple constant options (cases) based on the value of a single expression.
+
+Question 22: What is a case label in a switch statement?
+A case label is a specific value written inside a switch block (case value:) that the switch expression is compared against.
+
+Question 23: Why is break used in switch?
+break is used to terminate the switch block and jump out of it immediately after a matching case is successfully executed.
+
+Question 24: What happens if break is omitted?
+If a break is omitted, the execution will continuously "fall through" into the next cases and run their code as well, even if those case conditions do not match.
+
+Question 25: What is the default case in switch?
+The default case is an optional block that executes automatically when none of the defined case values match the switch expression (acting like an else).
+
+Question 26: Can switch compare strings in C++?
+No, in standard C++, a switch statement can only compare integral types (like int, char, bool) and cannot directly compare strings.
+
+Question 27: Which statement is better for many constant choices: if-else or switch?
+A switch statement is better because it looks much cleaner, is easier to read, and can be optimized better by the compiler.
+
+Question 28: How do you test whether a value is positive?
+Condition: num > 0
+
+Question 29: How do you test whether a value is negative?
+Condition: num < 0
+
+Question 30: How do you test whether a value is zero?
+Condition: num == 0
+
+Question 31: Write a condition to check if age is at least 18.
+Condition: age >= 18
+
+Question 32: Write a condition to check if marks are above 50.
+Condition: marks > 50
+
+Question 33: What is decision making in programming?
+Decision making is the process of deciding the execution flow of instructions based on given conditions or inputs.
+
+Question 34: Can nested if statements have multiple levels?
+Yes, you can nest if statements inside other if statements to multiple levels deep, though it makes the code harder to read.
+
+Question 35: What is logical AND (&&)?
+Logical AND combines two conditions and returns true only if both conditions are true.
+
+Question 36: What is logical OR (||)?
+Logical OR combines two conditions and returns true if at least one of the conditions is true.
+
+Question 37: What is logical NOT (!)?
+Logical NOT reverses the value of a condition (makes true into false, and false into true).
+
+Section 5: Complex Logic & Comparisons
+Question 38: How do you check if a year is divisible by 4?
+Condition: year % 4 == 0
+
+Question 39: What is a leap year?
+A leap year is a calendar year containing 366 days instead of 365, which happens once every 4 years to keep the calendar aligned with earth's rotation.
+
+Question 40: What is the first condition for a leap year?
+The basic condition is that the year must be perfectly divisible by 4 (year % 4 == 0), except for century years which have extra rules.
+
+Question 41: How do you find the largest of two numbers?
+C++
+if (a > b) {
+    cout << "a is largest";
+} else {
+    cout << "b is largest";
+}
+Question 42: How do you find the largest of three numbers?
+C++
+if (a >= b && a >= c) {
+    cout << "a is largest";
+} else if (b >= a && b >= c) {
+    cout << "b is largest";
+} else {
+    cout << "c is largest";
+}
+Question 43: What is an if-else-if ladder?
+An if-else-if ladder is a multi-way decision structure where multiple conditions are checked sequentially from top to bottom until one matches.
+
+Question 44: What is the difference between if and switch?
+if can check ranges, logical conditions (&&, ||), and dynamic expressions.
+
+switch only checks a single variable against fixed, discrete constant values.
+
+Question 45: Can switch use ranges directly?
+No, standard C++ switch statements cannot evaluate ranges (like case 1 to 10:) directly.
+
+Question 46: What is fall-through in switch?
+Fall-through is the behavior where execution moves into the next sequential case block automatically because a break statement was not encountered.
+
+Question 47: What data type is usually used for conditions?
+The boolean (bool) data type.
+
+Question 48: Why are conditional statements important?
+They are important because without them, a program would always run the exact same steps in the exact same order, making it impossible to handle dynamic user inputs or realistic logic.
+
+Question 49: Give one real-life example of a conditional statement.
+ATM Login: If your PIN code is correct, you can withdraw money; else, the machine displays an "Incorrect PIN" message.
+
+Question 50: Name four conditional structures covered.
+Simple if
+
+if-else block
+
+if-else-if ladder
+
+switch case statement
