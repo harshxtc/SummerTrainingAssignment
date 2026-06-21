@@ -4,11 +4,15 @@
 #include<algorithm>
 using namespace std;
 int main(){
-    string str1,str2;
-    cin>>str1>>str2;
-    reverse(str1.begin(),str1.end());
-    if(str1==str2){
+    string n,temp;
+    cin>>n;
+    n=temp;
+    reverse(temp.begin(),temp.end());
+    if(n==temp){
         cout<<"It is palindrome...";
+    }
+    else{
+        cout<<"It is not palindrome...";
     }
     return 0;
 }
